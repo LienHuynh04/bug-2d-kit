@@ -33,6 +33,12 @@
 - Âm thanh: giữ tiếng nền của video AI ở mức vừa (volume 0.9); hiệu ứng thêm duy nhất
   thường dùng là tiếng tít báo thức 880Hz, 0.6s, volume 0.18, đặt tại mốc lật giờ.
   Cảnh vẽ lại **không được tự thêm giọng nói/giọng hát mới** so với bản đã duyệt.
+- **Luật âm thanh (user chốt 2026-11-07): KHÔNG lời thoại và không tự chế giọng
+  người bằng TTS.** Âm thanh gồm: hiệu ứng tiếng động (đào cát, nhảy, vải sột
+  soạt, tít báo thức...), tiếng mèo tự nhiên (kêu meo, gừ gừ khi ngủ), và
+  **hiệu ứng giọng biểu cảm KHÔNG LỜI do user tạo bằng ElevenLabs** (kho tại
+  repo bug-2d-kit, thư mục audio/) — dùng đúng theo chỉ định của user từng clip.
+  Khi dựng lại clip cũ, tắt hẳn track tiếng gốc của video AI rồi lót hiệu ứng từ đầu.
 - Mỗi cảnh lấy 4.5–6.5 giây từ video 10s (bỏ đầu/cuối nơi AI hay biến hình).
 
 ## Điều cấm

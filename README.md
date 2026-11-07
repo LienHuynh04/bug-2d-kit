@@ -3,6 +3,12 @@
 Repo này lưu **style vẽ tối giản của Bug** để sau này chỉ cần gửi **kịch bản**,
 Muse tự vẽ ra clip mới đúng style, đúng nhân vật, không phải mò lại từ đầu.
 
+## Tool: Muse AI Create Video
+
+Repo này là nền của tool **Muse AI Create Video** trong Muse: user chỉ cần
+**gõ ý tưởng một dòng**, Muse tự viết kịch bản, vẽ, animate, lót âm thanh
+khớp biểu cảm và giao clip. Xem `TOOL.md` để biết dây chuyền đầy đủ.
+
 ## Cách dùng (quy trình chuẩn)
 
 1. User gửi kịch bản theo đúng mẫu trong `scripts/` (xem `scripts/kich-ban-mau-05.md`):
